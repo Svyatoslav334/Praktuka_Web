@@ -336,7 +336,16 @@ h2{
     position: relative;
     box-sizing: border-box;
     margin: 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+.product-card.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .product-card:hover{
   border: 2px solid #20B52652;
   box-shadow: 0 0 21px 4px rgba(51,168,48,0.46);  
@@ -642,7 +651,16 @@ h2{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+.testimonial-card.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .testimonial-content svg{
     margin: 15px;
 }
@@ -653,7 +671,6 @@ h2{
     margin-bottom: 15px;
     position: relative;
 }
-
 
 .testimonial-card .author {
     display: flex;
@@ -772,6 +789,14 @@ h2{
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   display: flex;
   flex-direction: column;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.blog-card.animate {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .blog-img {
@@ -788,7 +813,6 @@ h2{
   object-fit: cover;
   transition: transform 0.4s ease;
 }
-
 
 .blog-img .date {
   position: absolute;
@@ -844,7 +868,6 @@ h2{
     text-align: center;
     border-bottom: 1px solid #D3D3D3;
 }
-
 
 .footer-link a{
     text-decoration: none;
