@@ -329,7 +329,7 @@ h2{
 }
 
 .product-card{
-    flex: 0 0 45%;
+    flex: 0 0 50%;
     border: 1px solid #DAE5DA;
     background-color: #FFFFFF;
     padding: 10px;
@@ -611,7 +611,6 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
     margin-bottom: 60px;
 }
 .fp-title{
@@ -789,6 +788,7 @@ h2{
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -1472,5 +1472,6 @@ footer {
         width: 50px;
     }
 }
+
 
 
