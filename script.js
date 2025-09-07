@@ -11,11 +11,12 @@ burger.addEventListener('click', () => {
 const animateBlocks = (selector, animationClass) => {
     const blocks = document.querySelectorAll(selector);
 
-    const observer = new IntersectionObserver((entries, observer) => {
+    const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add(animationClass);
-                observer.unobserve(entry.target);
+            } else {
+                entry.target.classList.remove(animationClass);
             }
         });
     }, {
@@ -30,5 +31,6 @@ const animateBlocks = (selector, animationClass) => {
 animateBlocks('.product-card', 'fade-in-up');
 animateBlocks('.testimonial-card', 'scale-in');
 animateBlocks('.blog-card', 'fade-in-left');
+
 
 
