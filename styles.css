@@ -508,16 +508,16 @@ h2{
 }
 
 .banner.milk {
-    background-image: url('/img/BG3.jpg');
+    background-image: url('img/BG3.jpg');
 }
 
 .banner.drink {
-    background-image: url('/img/BG2.jpg');
+    background-image: url('img/BG2.jpg');
     color: #002603;
 }
 
 .banner.breakfast {
-    background-image: url('/img/BG1.jpg');
+    background-image: url('img/BG1.jpg');
     color: #002603;
 }
 
