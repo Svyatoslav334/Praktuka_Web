@@ -342,8 +342,8 @@ h2{
 }
 
 .product-card.animate {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .product-card:hover{
@@ -1061,6 +1061,26 @@ footer {
     width: 40px;
     margin: 0 5px;
 }
+
+.fade-in-up {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.fade-in-left {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+.scale-in {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.blog-card {
+  transform: translateX(-50px);
+}
+.testimonial-card {
+  transform: scale(0.8);
+}
+
 @media screen and (min-width: 768px) { 
     .top-bar {
         display: flex;
@@ -1472,6 +1492,7 @@ footer {
         width: 50px;
     }
 }
+
 
 
 
