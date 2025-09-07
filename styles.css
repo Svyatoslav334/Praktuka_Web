@@ -625,7 +625,7 @@ h2{
 }
 
 .testimonial {
-    padding: 60px;
+    padding: 20px;
     background-color: #EDF2EE;
     text-align: center;
 }
@@ -696,7 +696,7 @@ h2{
 }
 
 .video-section {
-    padding: 60px 20px;
+    padding: 60px 0px;
     text-align: center;
     width: 100%;
 }
@@ -1472,4 +1472,5 @@ footer {
         width: 50px;
     }
 }
+
 
