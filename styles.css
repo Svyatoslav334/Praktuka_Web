@@ -16,7 +16,7 @@ h2{
 
 .container{
     max-width: 1320px;
-    margin: 0 auto;
+    margin: 0 auto;F
 }
 .top-bar {
     display: none;
@@ -341,11 +341,6 @@ h2{
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.product-card.animate {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 .product-card:hover{
   border: 2px solid #20B52652;
   box-shadow: 0 0 21px 4px rgba(51,168,48,0.46);  
@@ -655,11 +650,6 @@ h2{
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.testimonial-card.animate {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 .testimonial-content svg{
     margin: 15px;
 }
@@ -792,11 +782,6 @@ h2{
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.blog-card.animate {
-    opacity: 1;
-    transform: translateY(0);
 }
 
 .blog-img {
@@ -1060,25 +1045,6 @@ footer {
 .footer-payment img {
     width: 40px;
     margin: 0 5px;
-}
-
-.fade-in-up {
-  opacity: 1 !important;
-  transform: translateY(0) !important;
-}
-.fade-in-left {
-  opacity: 1 !important;
-  transform: translateX(0) !important;
-}
-.scale-in {
-  opacity: 1 !important;
-  transform: scale(1) !important;
-}
-.blog-card {
-  transform: translateX(-50px);
-}
-.testimonial-card {
-  transform: scale(0.8);
 }
 
 @media screen and (min-width: 768px) { 
@@ -1492,6 +1458,7 @@ footer {
         width: 50px;
     }
 }
+
 
 
 
