@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="modal-window">
+    <div class="modal-box">
+        <span class="close-btn">&times;</span>
+        <div class="modal-img">
+            <img src="img/modal-images.jpg" class="modal-images" alt="Subscribe images" >
+        </div>
+        <div class="modal-content">
+            <h1 class="title">Subscribe to Our Newsletter</h1>
+            <span class="subtitle">
+                Subscribe to our newsletter and <span>Save your 20% money</span> with discount code today.
+            </span>
+            <form>
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+                <div class="do-not-show">
+                    <input type="checkbox" id="doNotShow">
+                    <label for="doNotShow">Do not show this window</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
     <section class="header-section">
         <header>
             <div class="top-bar">
@@ -653,5 +675,6 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/countdown@2.6.0/countdown.min.js"></script>
 </body>
 </html>
