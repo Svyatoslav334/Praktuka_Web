@@ -1081,108 +1081,6 @@ footer {
   transform: scale(0.8);
 }
 
-.modal-window {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.6);
-  justify-content: center;
-  align-items: center;
-  z-index: 2000;
-  padding: 20px;
-}
-
-.modal-window.active {
-  display: flex;
-}
-.modal-img {
-    text-align: center;
-}
-
-.modal-box {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  width: 100%;
-  max-width: 900px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  align-items: center;
-}
-
-.modal-window .close-btn {
-  position: absolute;
-  right: 12px;
-  top: 0px;
-  font-size: 50px;
-  cursor: pointer;
-  color: #002603;
-  z-index: 10;
-}
-
-.modal-content {
-  padding: 30px 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-}
-
-.modal-content h1 {
-  font-size: 22px;
-  font-weight: 600;
-  color: #002603;
-  text-align: center;
-}
-
-.modal-content .subtitle {
-  font-size: 14px;
-  color: #808080;
-}
-
-.modal-content .subtitle span {
-  color: #FF8A00;
-  font-weight: 600;
-}
-
-.modal-content form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.modal-content input[type="email"] {
-  padding: 14px 16px;
-  border: 1px solid #E5E5E5;
-  border-radius: 6px;
-  font-size: 14px;
-  width: 100%;
-}
-
-.modal-content button {
-  padding: 14px;
-  background: #00B207;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.modal-content button:hover {
-  background: #2C742F;
-}
-
-.do-not-show {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 16px;
-  color: #808080;
-}
-
 @media screen and (min-width: 768px) { 
     .top-bar {
         display: flex;
@@ -1309,27 +1207,6 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-    }
-
-    .modal-box { 
-        flex-direction: row; 
-    }
-    .modal-img { 
-        flex: 0 0 45%; 
-    }
-    .modal-img img { 
-        height: 100%; 
-        object-fit: cover; 
-    }
-    .modal-content { 
-        flex: 1;
-        padding: 40px; 
-    }
-    .modal-content .title { 
-        font-size: 32px; 
-    }
-    .modal-content .subtitle { 
-        font-size: 16px; 
     }
 
 }
@@ -1616,3 +1493,4 @@ footer {
         width: 50px;
     }
 }
+
